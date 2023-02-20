@@ -2,6 +2,7 @@
 Create a generator class to produce random numbers
 """
 
+
 import random
 
 
@@ -14,7 +15,7 @@ class ProduceChars:
         self.limit = limit
 
     def __iter__(self):
-        current = self.start
-        while current <= self.limit:
+        counter = 1
+        while counter <= self.limit:
             yield random.randint(self.start, self.end)
-            current += 1
+            counter += 1
