@@ -25,4 +25,4 @@ class ResourceBase(object):
         raise NotImplementedError
 
     def get_sample_data(self):
-        raise 
+        raise NotImplementedError

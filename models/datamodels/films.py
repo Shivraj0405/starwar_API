@@ -78,4 +78,4 @@ if __name__ == "__main__":
         "url": "https://swapi.dev/api/films/1/",
     }
     obj = Film_(**data)   # serialization / data validation
-    breakpoint()
+    print(obj)

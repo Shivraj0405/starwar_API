@@ -3,14 +3,14 @@ from utils.fetch_data import hit_url
 from typing import Dict
 
 
-class Film(ResourceBase):
+class Species(ResourceBase):
     """
-    Film class related functionality
+    Species class related functionality
     """
 
     def __init__(self) -> None:
         super().__init__()
-        self.relative_url = "/api/films"
+        self.relative_url = "/api/species"
 
     def get_count(self):
         complete_url = self.home_url + self.relative_url
