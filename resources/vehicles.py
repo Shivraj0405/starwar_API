@@ -19,7 +19,7 @@ class Vehicle(ResourceBase):
         count = data.get("count")
         return count
 
-    def get_sample_data(self, id_: int = 1) -> Dict:
+    def get_sample_data(self, id_: int = 4) -> Dict:
         """
         Args:
             id_: sample id of the resource
